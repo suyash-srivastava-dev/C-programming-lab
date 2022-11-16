@@ -82,7 +82,9 @@ Execute hello.c with intermediate files
 
     gcc -Wall -save-temps hello.c -o ./execution/hello 
 
-Steps of Compilation: ![Alt](/Lab1/helloWorldExecution.png "Title")
+Steps of Compilation:
+
+![Alt](/Lab1/helloWorldExecution.png "Title")
 
 - Step 1
  : is preprocessing of header files, all the statements starting with # (hash symbol) and comments are replaced/removed during the pre-processing with the help of a pre-processor. It generates an intermediate file with .i file extension i.e. a hello.i file.
